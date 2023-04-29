@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(83, 36, 52);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  text-align: center;
+}
+
+input {
+  text-align: center;
+}
+
+.card-body {
+  background-color: rgb(232, 230, 230);
+}
+
+.btn-dark {
+  border-radius: 10px;
+  transition-duration: 0.1s;
+}
+
+.btn-dark:hover {
+  background-color: rgb(83, 36, 52);
+}
+
+.hyperlink {
+  color: rgb(83, 36, 52);
+  text-decoration-line: underline;
+}
+
