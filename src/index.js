@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import "../node_modules/bootstrap/dist/css/bootstrap.css";//added
-import "../node_modules/bootstrap/dist/js/bootstrap.js";
+import "../node_modules/bootstrap/dist/js/bootstrap.js";//added
 import './index.css';
 import App from './App';
-import Login from "./components/login";
-import Navbar from "./components/navbar";
+import Login from "./components/login";//added
+import Navbar from "./components/navbar";/added
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
